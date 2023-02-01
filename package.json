@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "prepare": "husky install",
-    "lint": "prettier pages components --write && eslint pages components --fix"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@commitlint/cli": "^17.4.2",
