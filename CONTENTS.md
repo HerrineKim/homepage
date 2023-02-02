@@ -30,7 +30,7 @@ three.js가 메인인 프로젝트를 했는데 three.js를 못하는 나 이대
 
 -> 다른 건 몰라도 three.js or webGL은 꼭 적용해보자
 
--> 내가 원하는 개체 만드려면 blender도 추가적으로 배워야 할듯
+-> 내가 원하는 개체 만드려면 blender도 추가적으로 배워야 할 듯
 
 https://uicookies.com/threejs-examples/
 
@@ -46,11 +46,15 @@ three.js examples
 
 ## 9. Wiki
 
-## 10.  독후감 쓰는 곳
+## 10.  독서 기록
 
 ![image-20230202000840310](CONTENTS.assets/image-20230202000840310.png)
 
 https://dribbble.com/shots/16279204-Book-Web-Store-Concept?utm_source=Clipboard_Shot&utm_campaign=nikitin&utm_content=Book%20Web%20Store%20Concept&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=nikitin&utm_content=Book%20Web%20Store%20Concept&utm_medium=Social_Share
+
+## 11. 검색
+
+- algolia?
 
 ----------------------------------
 
@@ -79,7 +83,7 @@ interactive developer 김종민님의 포트폴리오 페이지(유튜브 채널
 
 - 별마다 메뉴가 있음(메뉴 안 내용은 일반 React 페이지로 할 것이므로 메인 페이지와 동시에 개발하기)
 
-- 위키 or 블로그란에 가면 마인드 맵처럼 소행성? 작은 별들이 연결되어 나만의 마인드맵도 볼 수 있음(내 생각을 구조화 & 시각화 해서 축적해 나가고 싶다)
+- 위키 or 블로그 란에 가면 마인드 맵처럼 소행성? 작은 별들이 연결되어 나만의 마인드 맵도 볼 수 있음(내 생각을 구조화 & 시각화 해서 축적해 나가고 싶다)
 
   - 이 부분을 three.js로 구현하는 것이 목표
   - ![image-20230202010528823](CONTENTS.assets/image-20230202010528823.png)
@@ -90,6 +94,10 @@ interactive developer 김종민님의 포트폴리오 페이지(유튜브 채널
 
 # Questions
 
-- 서버비???
-  - AWS lambda, S3, 프리티어
-  - GitHub 학생 계정 제휴한 곳들 살펴보기
+- ~~서버비???~~
+  - ~~AWS lambda, S3, 프리 티어~~
+  - ~~GitHub 학생 계정 제휴한 곳들 살펴보기~~
+
+- Vercel, 마크다운 -> HTLM 변환 라이브러리 이용하여 정적 웹사이트로 배포
+
+  https://yceffort.kr/2020/10/migrate-gatsby-from-nextjs
