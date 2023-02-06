@@ -60,6 +60,32 @@ https://dribbble.com/shots/16279204-Book-Web-Store-Concept?utm_source=Clipboard_
 
 # References
 
+:star: https://jesse-zhou.com/
+
+![ezgif.com-gif-maker](CONTENTS.assets/ezgif.com-gif-maker-16756138681691.gif)
+
+로딩 애니메이션 참고,
+
+three.js 관련 꼭 참고하기. 깔끔한 양식의 포트폴리오 페이지보다 이 사람에 대한 기대감을 주는 것 같음
+
+보글보글 끓는 소리, 클릭할 때 효과음, 특정 route 접속 시에만 들리는 배경음 등 소리 있으면 좋은듯(무플리 때 썼던 YouTube API 활용 가능)
+
+:star: https://www.edwardh.io/
+
+내 방 컴퓨터 이용해서 이렇게?
+
+:star: https://bepatrickdavid.com/
+
+농담 던지기 기법
+
+https://vanholtz.co/
+
+타이포에 애니메이션을 주는 것의 매력. 내 취향은 글씨는 정적인 게 더 맞는 것도 같다.
+
+:star: 공유해 socail 반응 얻기, little brag is not bad/실사 노출?/
+
+
+
 ![image-20230201164944397](CONTENTS.assets/image-20230201164944397.png)
 
 interactive developer 김종민님의 포트폴리오 페이지(유튜브 채널에 공유되어 있다.)

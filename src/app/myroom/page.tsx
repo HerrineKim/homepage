@@ -1,3 +1,7 @@
 export default function MyroomPage() {
-  return <></>
+  return (
+    <>
+      <h1>Myroom</h1>
+    </>
+  )
 }

@@ -1,3 +1,7 @@
 export default function WikiPage() {
-  return <></>
+  return (
+    <>
+      <h1>Wiki</h1>
+    </>
+  )
 }
