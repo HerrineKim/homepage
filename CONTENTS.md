@@ -1,3 +1,4 @@
+
 # CONTENTS
 
 > 단순 포트폴리오보다는 재미 요소 & 실험실 기능이 같이 있는 홈페이지를 만들어 보면 어떨까?
@@ -14,17 +15,11 @@
 
 ![image-20230201012930215](CONTENTS.assets/image-20230201012930215.png)
 
-https://hanseul.com/
-
-화분에 hover하면 화분이 닫혀있다 열리면서 그 상태에서 클릭하면 특정 링크로 연결된다.
+화분에 hover하면 화분이 닫혀있다 열리면서 그 상태에서 클릭하면 특정 링크로 연결된다. [URL](https://hanseul.com/)
 
 ![ezgif.com-gif-maker](CONTENTS.assets/ezgif.com-gif-maker.gif)
 
-https://oxeni.dev/
-
-three.js로 구현한 배경
-
-
+three.js로 구현한 배경 [URL](https://oxeni.dev/)
 
 three.js가 메인인 프로젝트를 했는데 three.js를 못하는 나 이대로 괜찮은가
 
@@ -32,9 +27,7 @@ three.js가 메인인 프로젝트를 했는데 three.js를 못하는 나 이대
 
 -> 내가 원하는 개체 만드려면 blender도 추가적으로 배워야 할 듯
 
-https://uicookies.com/threejs-examples/
-
-three.js examples
+[three.js examples](https://uicookies.com/threejs-examples/)
 
 ## 5. SNS 링크들
 
@@ -50,7 +43,7 @@ three.js examples
 
 ![image-20230202000840310](CONTENTS.assets/image-20230202000840310.png)
 
-https://dribbble.com/shots/16279204-Book-Web-Store-Concept?utm_source=Clipboard_Shot&utm_campaign=nikitin&utm_content=Book%20Web%20Store%20Concept&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=nikitin&utm_content=Book%20Web%20Store%20Concept&utm_medium=Social_Share
+<https://dribbble.com/shots/16279204-Book-Web-Store-Concept?utm_source=Clipboard_Shot&utm_campaign=nikitin&utm_content=Book%20Web%20Store%20Concept&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=nikitin&utm_content=Book%20Web%20Store%20Concept&utm_medium=Social_Share>
 
 ## 11. 검색
 
@@ -60,7 +53,7 @@ https://dribbble.com/shots/16279204-Book-Web-Store-Concept?utm_source=Clipboard_
 
 # References
 
-:star: https://jesse-zhou.com/
+:star: <https://jesse-zhou.com/>
 
 ![ezgif.com-gif-maker](CONTENTS.assets/ezgif.com-gif-maker-16756138681691.gif)
 
@@ -70,21 +63,19 @@ three.js 관련 꼭 참고하기. 깔끔한 양식의 포트폴리오 페이지�
 
 보글보글 끓는 소리, 클릭할 때 효과음, 특정 route 접속 시에만 들리는 배경음 등 소리 있으면 좋은듯(무플리 때 썼던 YouTube API 활용 가능)
 
-:star: https://www.edwardh.io/
+:star: <https://www.edwardh.io/>
 
 내 방 컴퓨터 이용해서 이렇게?
 
-:star: https://bepatrickdavid.com/
+:star: <https://bepatrickdavid.com/>
 
 농담 던지기 기법
 
-https://vanholtz.co/
+<https://vanholtz.co/>
 
 타이포에 애니메이션을 주는 것의 매력. 내 취향은 글씨는 정적인 게 더 맞는 것도 같다.
 
-:star: 공유해 socail 반응 얻기, little brag is not bad/실사 노출?/
-
-
+:star: 공유해 social 반응 얻기, little brag is not bad/실사 노출?
 
 ![image-20230201164944397](CONTENTS.assets/image-20230201164944397.png)
 
@@ -96,7 +87,7 @@ interactive developer 김종민님의 포트폴리오 페이지(유튜브 채널
 
 내 집의 개발 공간(책상)을 멋있게 찍어서 배경으로 활용하거나 hover했을 때 이벤트가 발생하게 하면 좋겠다.
 
-----------
+----------------------------------
 
 # Prototype
 
@@ -116,7 +107,7 @@ interactive developer 김종민님의 포트폴리오 페이지(유튜브 채널
 
   - ![image-20230202011102868](CONTENTS.assets/image-20230202011102868.png)
 
-------
+----------------------------------
 
 # Questions
 
@@ -124,6 +115,6 @@ interactive developer 김종민님의 포트폴리오 페이지(유튜브 채널
   - ~~AWS lambda, S3, 프리 티어~~
   - ~~GitHub 학생 계정 제휴한 곳들 살펴보기~~
 
-- Vercel, 마크다운 -> HTLM 변환 라이브러리 이용하여 정적 웹사이트로 배포
+- Vercel, 마크다운 -> HTML 변환 라이브러리 이용하여 정적 웹사이트로 배포
 
-  https://yceffort.kr/2020/10/migrate-gatsby-from-nextjs
+  <https://yceffort.kr/2020/10/migrate-gatsby-from-nextjs>
