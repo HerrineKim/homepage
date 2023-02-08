@@ -6,6 +6,31 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const navBar = (
+    <nav>
+      <Link href='/'>Home</Link>
+      <Link href='/portfolio'>Portfolio</Link>
+      <Link href='/myroom'>Myroom</Link>
+      <Link href='/experiment'>Experiment</Link>
+      <Link href='/wiki'>Wiki</Link>
+    </nav>
+  )
+
+  const header = (
+    <header>
+      <h1>혜린의 아지트</h1>
+      <p>환영합니다💛</p>
+      <br />
+    </header>
+  )
+
+  const footer = (
+    <footer>
+      <br />
+      <p>© 2023 Herrine Kim</p>
+    </footer>
+  )
+
   return (
     <html lang='en'>
       {/*
@@ -14,14 +39,10 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <nav>
-          <Link href='/'>Home</Link>
-          <Link href='/portfolio'>Portfolio</Link>
-          <Link href='/myroom'>Myroom</Link>
-          <Link href='/experiment'>Experiment</Link>
-          <Link href='/wiki'>Wiki</Link>
-        </nav>
+        {header}
+        {navBar}
         {children}
+        {footer}
       </body>
     </html>
   )

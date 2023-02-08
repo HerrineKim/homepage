@@ -10,7 +10,8 @@
     "plugin:@typescript-eslint/recommended",
     "next", 
     "next/core-web-vitals",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:mdx/recommended"
   ], 
   "parser": "@typescript-eslint/parser", 
   "parserOptions": { 
@@ -39,6 +40,7 @@
   "settings": {
     "react": {
       "version": "detect"
-    }
+    },
+    "mdx/code-blocks": true
   } 
 }
