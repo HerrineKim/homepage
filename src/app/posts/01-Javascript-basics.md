@@ -31,7 +31,7 @@
 - 단순한 속성 접근, 메서드 활용 뿐만 아니라 프로그래밍 언어적 특성을 활용한 조작 가능
 - 주요 객체
   - window: DOM을 표현하는 창(브라우저 탭). 최상위 객체(작성 시 생략 가능)
-  - document: 페이지 컨텐츠의 Entry Point 역할을 하며, <head>, <body>와 같은 수많은 다른 요소들을 포함
+  - document: 페이지 컨텐츠의 Entry Point 역할을 하며, `<head>`, `<body>`와 같은 수많은 다른 요소들을 포함
   - navigator, location, history, screen
 
 ##### DOM - 해석
@@ -76,8 +76,6 @@
 
 브라우저(BOM)과 그 내부의 문서(DOM)을 조작하기 위해 ECMAScript(JS)를 학습
 
-
-
 ### ECMAScript
 
 #### ECMA?
@@ -89,17 +87,11 @@
 - ECMAScript6는 ECMA에서 제안하는 6번째 표준 명세를 말함
   - (참고) ECMAScript6의 발표 연도에 따라 ECMAScript2015라고도 불림
 
-
-
 ### 세미콜론
-
-#### 세미콜론
 
 - 자바스크립트는 세미콜론을 선택적으로 사용 가능
 - 세미콜론이 없으면 ASI*에 의해 자동으로 세미콜론이 삽입됨
   - ASI: 자동 세미콜론 삽입 규칙(Automatic Semicolon Insertion)
-
-
 
 ### 코딩 스타일 가이드
 
@@ -112,8 +104,6 @@
   - [Google Javascript Style Guide](https://google.github.io/styleguide/jsguide.html)
   - [standardjs](https://standardjs.com/)
 
-
-
 ## 01-2 변수와 식별자
 
 ### 식별자 정의와 특징
@@ -122,8 +112,6 @@
 - 식별자는 반드시 문자, 달러($) 또는 밑줄(_)로 시작
 - 대소문자를 구분하며, 클래스명 외에는 모두 소문자로 시작
 - 예악어(for, if, function...) 사용 불가능
-
-
 
 ### 식별자 작성 스타일
 
@@ -135,11 +123,9 @@
   - **상수(constants)에 사용**
     - 상수의 정의: 개발자의 의도와 상관없이 변경될 가능성이 없는 값을 의미
 
-
-
 ### 변수 선언 키워드
 
-**let**
+#### let
 
 - 재할당 할 예정인 변수 선언 시 사용
 - :star: 변수 재선언 불가능
@@ -147,8 +133,7 @@
   - it, for, 함수 등의 중괄호 내부
   - 블록 스코프를 가지는 변수는 블록 바깥에서 접근 불가능
 
-
-**const**
+#### const
 
 - :star: 재할당 할 예정이 없는 변수 선언 시 사용
 - :star: 변수 재선언 불가능
@@ -175,8 +160,7 @@ console.log(bar) // 0
 - **초기화(Initialization)**
   - 선언된 변수에 처음으로 값을 저장하는 행위
 
-
-**var**
+#### var
 
 - var로 선언한 변수는 재선언 및 재할당 모두 가능
 - ES6 이전에 변수를 선언할 때 사용되던 키워드
@@ -193,7 +177,7 @@ console.log(bar) // 0
 ### 데이터 타입 종류
 
 - 자바스크립트의 모든 값은 특정한 데이터 타입을 가짐
-- 크게 원시 타입(Primitive type)과 참조 타입(Referemce type)으로 분류됨
+- 크게 원시 타입(Primitive type)과 참조 타입(Reference type)으로 분류됨
 
 ### 원시 타입
 
