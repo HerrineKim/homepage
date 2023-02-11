@@ -5,6 +5,7 @@ export default function Head() {
   return (
     <>
       <title>혜린의 아지트</title>
+      <meta charSet='utf-8' />
       <meta content='width=device-width, initial-scale=1' name='viewport' />
       <meta name='description' content='개발자 혜린의 아지트' />
       <meta
