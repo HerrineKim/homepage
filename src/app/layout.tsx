@@ -18,7 +18,9 @@ export default function RootLayout({
 
   const header = (
     <header>
-      <h1>혜린의 아지트</h1>
+      <Link href='/'>
+        <h1>혜린의 아지트</h1>
+      </Link>
       <p>환영합니다💛</p>
       <br />
     </header>

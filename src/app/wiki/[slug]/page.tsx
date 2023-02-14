@@ -1,5 +1,7 @@
 import fs from 'fs'
-import iconv from 'iconv-lite'
+import Markdown from 'markdown-to-jsx'
+import matter from 'gray-matter'
+import getPostMetadata from '@/app/components/getPostMetadata'
 
 interface PostContentProps {
   // Dynamic route parameters object라서 params에 담겨져 들어오도록 Next.js에서 정해놓은 거였네요.
@@ -17,16 +19,20 @@ const getPostContent = (slug: string) => {
   const folder = 'src\\app\\posts'
   const file = `${folder}\\${decodedSlug}.md`
   const content = fs.readFileSync(file, 'utf8')
-  return content
+  const matterResult = matter(content)
+  return { post: matterResult, decodedSlug }
 }
+
+export const generateStaticParams = () => [{ slug: '01-Javascript-기초' }]
 
 export default function PostPage(props: PostContentProps) {
   const slug = props.params.slug
-  const content = getPostContent(slug)
+  const { post, decodedSlug } = getPostContent(slug)
   return (
     <>
-      <h1>자바스크립트 글: {slug}</h1>
-      <div>{content}</div>
+      <h1>자바스크립트 글: {decodedSlug}</h1>
+      {/* TODO: 이미지 출력하기 */}
+      <Markdown>{post.content}</Markdown>
     </>
   )
 }
