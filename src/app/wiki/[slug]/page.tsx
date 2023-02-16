@@ -23,16 +23,26 @@ const getPostContent = (slug: string) => {
   return { post: matterResult, decodedSlug }
 }
 
-export const generateStaticParams = () => [{ slug: '01-Javascript-기초' }]
+export const generateStaticParams = async () => {
+  const posts = getPostMetadata()
+  return posts.map((post) => ({
+    slug: post.slug,
+  }))
+}
 
 export default function PostPage(props: PostContentProps) {
   const slug = props.params.slug
   const { post, decodedSlug } = getPostContent(slug)
   return (
     <>
-      <h1>자바스크립트 글: {decodedSlug}</h1>
-      {/* TODO: 이미지 출력하기 */}
-      <Markdown>{post.content}</Markdown>
+      <div className='my-12 text-center'>
+        <h1 className='text-2xl text-slate-600'>{decodedSlug}</h1>
+        <p className='text-slate-400 mt-2'>{post.data.date}</p>
+        {/* TODO: 이미지 출력하기 */}
+        <article className='prose'>
+          <Markdown>{post.content}</Markdown>
+        </article>
+      </div>
     </>
   )
 }

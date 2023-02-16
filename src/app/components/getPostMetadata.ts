@@ -4,7 +4,6 @@ import matter from 'gray-matter'
 import { PostMetadata } from '../components/PostMetadata'
 
 const getPostMetadata = (): PostMetadata[] => {
-  // 왜 Next.js에서는 escape character를 두 번 써야 하나?
   const folder = 'src\\app\\posts'
   // TODO 비동기 방식으로 변경
   const files = fs.readdirSync(folder)
