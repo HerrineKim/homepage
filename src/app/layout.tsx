@@ -8,11 +8,11 @@ export default function RootLayout({
 }) {
   const navBar = (
     <nav>
-      <Link href='/'>Home</Link>
+      <Link href='/'>MyRoom</Link>
       <Link href='/portfolio'>Portfolio</Link>
-      <Link href='/myroom'>Myroom</Link>
-      <Link href='/experiment'>Experiment</Link>
       <Link href='/wiki'>Wiki</Link>
+      <Link href='/books'>Books</Link>
+      <Link href='/experiment'>Experiment</Link>
     </nav>
   )
 
