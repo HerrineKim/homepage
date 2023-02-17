@@ -1,5 +1,5 @@
-import getPostMetadata from '../components/getPostMetadata'
-import PostPreview from '../components/PostPreview'
+import getPostMetadata from '@/app/components/getPostMetadata'
+import PostPreview from '@/app/components/PostPreview'
 
 export default function WikiPage() {
   const postMetadata = getPostMetadata()
