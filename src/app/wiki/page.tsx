@@ -3,7 +3,6 @@ import PostPreview from '../components/PostPreview'
 
 export default function WikiPage() {
   const postMetadata = getPostMetadata()
-  console.log('🚀 ~ file: page.tsx:6 ~ WikiPage ~ postMetadata', postMetadata)
 
   const postPreviews = postMetadata.map((post) => (
     <PostPreview key={post.slug} {...post} />
