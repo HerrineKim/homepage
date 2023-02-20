@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { PostMetadata } from './PostMetadata'
+import { PostMetadata } from '@/app/components/PostMetadata'
 
 const PostPreview = (props: PostMetadata) => (
   <div className='border border-slate-300 p-4 rounded-md shadow-md bg-white'>
