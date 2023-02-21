@@ -3,9 +3,8 @@ title: 01-Javascript-기초
 date: 2021-11-13 12:30:00
 tags: [Javascript]
 ---
-# 01-Javascript-기초
 
-[TOC]
+<!-- [TOC] -->
 
 ## 01-1 Intro
 
@@ -28,7 +27,7 @@ tags: [Javascript]
 
 #### DOM이란?
 
-![image-20221113124748448](01-Javascript-%EA%B8%B0%EC%B4%88.assets/image-20221113124748448.png)
+![images/image-20221113124748448](/images/image-20221113124748448.png)
 
 - HTML, XML과 같은 문서를 다루기 위한 프로그래밍 인터페이스
 - 문서를 구조화하고, 구조화된 구성 요소를 하나의 객체로 취급하여 다루는 논리적 트리 모델
@@ -41,7 +40,7 @@ tags: [Javascript]
 
 ##### DOM - 해석
 
-![image-20221113123034892](01-Javascript-%EA%B8%B0%EC%B4%88.assets/image-20221113123034892.png)
+![images/image-20221113123034892](/images/image-20221113123034892.png)
 
 - 파싱(Parsing)
   - 구문 분석, 해석
@@ -65,7 +64,7 @@ tags: [Javascript]
 
 ##### BOM - 조작
 
-![image-20221113124755791](01-Javascript-%EA%B8%B0%EC%B4%88.assets/image-20221113124755791.png)
+![images/image-20221113124755791](/images/image-20221113124755791.png)
 
 #### Javascript Core
 
@@ -95,7 +94,7 @@ tags: [Javascript]
 ### 세미콜론
 
 - 자바스크립트는 세미콜론을 선택적으로 사용 가능
-- 세미콜론이 없으면 ASI*에 의해 자동으로 세미콜론이 삽입됨
+- 세미콜론이 없으면 ASI\*에 의해 자동으로 세미콜론이 삽입됨
   - ASI: 자동 세미콜론 삽입 규칙(Automatic Semicolon Insertion)
 
 ### 코딩 스타일 가이드
@@ -114,7 +113,7 @@ tags: [Javascript]
 ### 식별자 정의와 특징
 
 - 식별자(identifier)는 **변수를 구분할 수 있는 변수명**을 말함
-- 식별자는 반드시 문자, 달러($) 또는 밑줄(_)로 시작
+- 식별자는 반드시 문자, 달러($) 또는 밑줄(\_)로 시작
 - 대소문자를 구분하며, 클래스명 외에는 모두 소문자로 시작
 - 예악어(for, if, function...) 사용 불가능
 
@@ -160,6 +159,7 @@ console.log(bar) // 0
 - **선언(Declaration)**
   - **변수를 생성**하는 행위 또는 시점
 - **할당(Assignment)**
+
   - 선언된 변수에 값을 저장하는 행위 또는 시점
 
 - **초기화(Initialization)**
@@ -169,11 +169,11 @@ console.log(bar) // 0
 
 - var로 선언한 변수는 재선언 및 재할당 모두 가능
 - ES6 이전에 변수를 선언할 때 사용되던 키워드
-- 호이스팅*되는 특성으로 인해 예기치 못한 문제 발생 가능
+- 호이스팅\*되는 특성으로 인해 예기치 못한 문제 발생 가능
   - 변수를 선언 이전에 참조할 수 있는 현상
   - 변수 선언 이전의 위치에서 접근 시 undefined를 반환
   - 따라서 ES6 이후부터는 var 대신 const와 let을 사용하는 것을 권장
-- 함수 스코프*
+- 함수 스코프\*
   - 함수의 중괄호의 내부를 가리킴
   - 함수 스코프를 가지는 변수는 함수 바깥에서 접근 불가능
 
@@ -218,9 +218,9 @@ console.log(bar) // 0
 
 - 변수의 값이 없음을 :star:의도적으로 표현할 때 사용하는 데이터 타입
 
-- [(참고) null 타입과 typeof 연산자*](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/typeof#null)
+- [(참고) null 타입과 typeof 연산자\*](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/typeof#null)
 
-  - typeof 연산자*: 자료형 평가를 위한 연산자
+  - typeof 연산자\*: 자료형 평가를 위한 연산자
 
   - null 타입은 ECMA 명세의 원시 타입의 정의에 따라 원시 타입에 속하지만, typeof 연산자의 결과는 객체(object)로 표현됨
 
@@ -229,7 +229,7 @@ console.log(bar) // 0
   - ```javascript
     let firstName = null
     console.log(firstName) // null
-    
+
     typeof null // object
     ```
 
@@ -251,7 +251,7 @@ null
 
 - 논리적 참 또는 거짓을 나타내는 타입
 - true 또는 false로 표현
-- 조건문 또는 반복문*에서 유용하게 사용
+- 조건문 또는 반복문\*에서 유용하게 사용
   - (참고)조건문 또는 반복문에서 boolean이 아닌 데이터 타입은 [자동 형변환 규칙](https://ko.javascript.info/type-conversions)에 따라 true 또는 false로 변환됨
 
 ### 참조 타입
@@ -336,8 +336,8 @@ console.log(c === d) // false
 ```
 
 - 두 피연산자가 같은 값으로 평가되는지 비교 후 boolean 값을 반환
-- 엄격한 비교*가 이루어지며 암묵적 타입 변환이 발생하지 않음
-  - 엄격한 비교*: 두 비교 대상의 타입과 값 모두 같은지 비교하는 방식
+- 엄격한 비교\*가 이루어지며 암묵적 타입 변환이 발생하지 않음
+  - 엄격한 비교\*: 두 비교 대상의 타입과 값 모두 같은지 비교하는 방식
 - 두 피연산자가 모두 객체일 경우 메모리의 같은 객체를 바라보는지 판별
 
 ### 논리 연산자

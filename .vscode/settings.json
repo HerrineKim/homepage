@@ -1,7 +1,6 @@
 {
-  "eslint.workingDirectories": [
-    "./src"
-  ],
+  "eslint.workingDirectories": ["./src"],
   "typescript.tsdk": "node_modules\\typescript\\lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "cSpell.words": ["phinf", "pstatic"]
 }

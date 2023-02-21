@@ -15,7 +15,6 @@ const getPostContent = (slug: string) => {
   // 현재 slug 한글은 %EC%95%84%EB%A7%8 이런 식으로 들어오는데, slug가 URI로!! 전달되면서 UNICODE로 인코딩되었기 때문입니다.
   // decodedURIComponent()를 사용해서 다시 원래 문자열로 복원합니다. 반대로, encodeURIC()를 사용해서 URI로 전달되었을 때 오류가 발생하지 않도록 인코딩할 수 있습니다.
   const decodedSlug = decodeURIComponent(slug)
-  // console.log('decodedSlug', decodedSlug)
   const folder = 'src\\app\\posts'
   const file = `${folder}\\${decodedSlug}.md`
   const content = fs.readFileSync(file, 'utf8')
@@ -35,7 +34,7 @@ export default function PostPage(props: PostContentProps) {
   const { post, decodedSlug } = getPostContent(slug)
   return (
     <>
-      <div className='my-12 text-center'>
+      <div className='my-12'>
         <h1 className='text-2xl text-slate-600'>{decodedSlug}</h1>
         <p className='text-slate-400 mt-2'>{post.data.date}</p>
         {/* TODO: 이미지 출력하기 */}
