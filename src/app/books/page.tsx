@@ -2,7 +2,12 @@ import { getBookDetail } from '../lib/books/getBookDetail'
 
 export default function BooksPage() {
   const bookData = getBookDetail('리버보이')
-  console.log('🚀 ~ file: page.tsx:5 ~ ExperimentPage ~ bookData', bookData)
+
+  console.log(
+    bookData.then((data) => {
+      console.log(data)
+    }),
+  )
 
   return (
     <>
