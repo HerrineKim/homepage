@@ -1,4 +1,5 @@
 import { getBookDetail } from '@/app/lib/books/getBookDetail'
+import Image from 'next/image'
 
 export default async function BooksPage() {
   const bookData = await getBookDetail('리버보이')
@@ -14,7 +15,7 @@ export default async function BooksPage() {
             <h2>{item.title}</h2>
             <p>{item.author}</p>
             <p>{item.description}</p>
-            <img src={item.image} />
+            <Image src={item.image} alt='도서 이미지' />
           </li>
         ))}
       </ul>
