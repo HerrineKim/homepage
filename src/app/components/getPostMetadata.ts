@@ -1,7 +1,7 @@
 import fs from 'fs'
 // 파일 관련 입출력 등 여러 처리를 해주는 node.js 내장 모듈입니다.
 import matter from 'gray-matter'
-import { PostMetadata } from '../components/PostMetadata'
+import { PostMetadata } from '@/app/components/PostMetadata'
 
 const getPostMetadata = (): PostMetadata[] => {
   const folder = 'src\\app\\posts'

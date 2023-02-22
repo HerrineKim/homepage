@@ -61,6 +61,8 @@ three.js가 메인인 프로젝트를 했는데 three.js를 못하는 나 이대
 
 three.js 관련 꼭 참고하기. 깔끔한 양식의 포트폴리오 페이지보다 이 사람에 대한 기대감을 주는 것 같음
 
+:star: 일러스트레이터 사용해 3D 오브젝트 만들 수 있다. [링크](https://www.youtube.com/watch?v=54fcOD-DUiI) (.svg로 내보내면 될 듯?)
+
 보글보글 끓는 소리, 클릭할 때 효과음, 특정 route 접속 시에만 들리는 배경음 등 소리 있으면 좋은듯(무플리 때 썼던 YouTube API 활용 가능)
 
 :star: <https://www.edwardh.io/>
