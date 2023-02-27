@@ -1,7 +1,7 @@
 export async function searchBook(bookName: string) {
   const searchBookHeaders: HeadersInit = {
-    'X-Naver-Client-Id': process.env.Naver_Book_Client_Id,
-    'X-Naver-Client-Secret': process.env.Naver_Book_Client_Secret,
+    'X-Naver-Client-Id': process.env.Naver_Client_Id,
+    'X-Naver-Client-Secret': process.env.Naver_Client_Secret,
   }
   const searchBookQuery = new URLSearchParams({
     query: bookName,
