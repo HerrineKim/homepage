@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  experimental: { appDir: true },
+  experimental: {
+    appDir: true,
+    fontLoaders: {
+      loader: '@next/font/google',
+      options: { subsets: ['latin'] },
+    },
+  },
   env: {
     Naver_Book_Search_API_URL: process.env.Naver_Book_Search_API_URL,
     Naver_Client_Id: process.env.Naver_Client_Id,
@@ -12,6 +18,10 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'shopping-phinf.pstatic.net',
+      },
+      {
+        protocol: 'https',
+        hostname: 'placekitten.com',
       },
     ],
   },

@@ -3,7 +3,6 @@ import Image from 'next/image'
 
 export default async function BooksPage() {
   const booksData = await searchBook('정의란 무엇인가')
-  console.log(booksData.items)
 
   return (
     <>
