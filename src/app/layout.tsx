@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import Link from 'next/link'
+import { inter } from '@/app/fonts'
 
 export default function RootLayout({
   children,
@@ -35,7 +36,7 @@ export default function RootLayout({
   )
 
   return (
-    <html lang='en'>
+    <html lang='en' className={inter.className}>
       {/*
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
