@@ -9,10 +9,11 @@ export default function MyCityBanner() {
     fetch(seoulTimeURL)
       .then((response) => response.json())
       .then((data) => {
+        const seoulNow = new Date(data.datetime)
         setSeoulTime(
-          new Date(data.datetime).getHours() * 3600 +
-            new Date(data.datetime).getMinutes() * 60 +
-            new Date(data.datetime).getSeconds(),
+          seoulNow.getHours() * 3600 +
+            seoulNow.getMinutes() * 60 +
+            seoulNow.getSeconds(),
         )
       })
       .catch((error) => {

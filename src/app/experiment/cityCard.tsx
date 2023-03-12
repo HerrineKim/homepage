@@ -17,7 +17,8 @@ export default function CityCard({
   const [cityTimeAbb, setCityTimeAbb] = useState('')
 
   const seoulPromise = fetch(`${baseURL}/Asia/Seoul`)
-  const cityPromise = fetch(baseURL + cityName)
+  const cityPromise = fetch(`${baseURL}${cityName}`)
+
   useEffect(() => {
     Promise.all([seoulPromise, cityPromise])
       .then((responses) => responses.map((el) => el.json()))

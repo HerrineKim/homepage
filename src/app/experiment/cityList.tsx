@@ -8,7 +8,7 @@ export default function CityList() {
           className='font-normal text-xl'
           key={city + Math.floor(Math.random() * 1000000)}
         >
-          {city.split('/')[1].replace(/_/g, ' ')}
+          {city?.split('/')[1].replace(/_/g, ' ')}
         </p>
       ))}
     </>

@@ -23,12 +23,11 @@ export default function ExperimentPage() {
   // 만약 activeClocks가 4개가 되면 모든 input 비활성화
   const [isDisabled, setIsDisabled] = useState(false)
 
+  const maxClocksNum = 4
+
   useEffect(() => {
-    if (Object.keys(activeClocks || {}).length >= 4) {
-      setIsDisabled(true)
-    } else {
-      setIsDisabled(false)
-    }
+    const isDisabled = Object.keys(activeClocks || {}).length >= maxClocksNum
+    setIsDisabled(isDisabled)
   }, [activeClocks])
 
   const handleCityInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
