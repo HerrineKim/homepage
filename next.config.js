@@ -3,10 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   experimental: {
     appDir: true,
-    fontLoaders: {
-      loader: '@next/font/google',
-      options: { subsets: ['latin'] },
-    },
+    // fontLoaders: {
+    //   loader: '@next/font/google',
+    //   options: { subsets: ['latin'] },
+    // },
   },
   env: {
     Naver_Book_Search_API_URL: process.env.Naver_Book_Search_API_URL,
