@@ -11,7 +11,7 @@ const getPostMetadata = (): PostMetadata[] => {
   // slugs: 파일명에서 확장자를 제외한 배열. 왜 slug? 옛날에 신문에서 중요한 단어로만 제목 만든 것을 지칭했습니다.
 
   const posts = markdownPosts.map((file) => {
-    const fileContents = fs.readFileSync(`${folder}/${file}`, 'utf8')
+    const fileContents = fs.readFileSync(`${folder}\\${file}`, 'utf8')
     const matterResult = matter(fileContents)
     return {
       title: matterResult.data.title,
