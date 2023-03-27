@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 export default function MyCityBanner() {
-  const seoulTimeURL = 'http://worldtimeapi.org/api/timezone/Asia/Seoul'
+  const seoulTimeURL = 'https://worldtimeapi.org/api/timezone/Asia/Seoul'
 
   const [seoulTime, setSeoulTime] = useState(0)
 

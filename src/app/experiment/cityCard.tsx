@@ -7,7 +7,7 @@ export default function CityCard({
   cityName: string
   cityLabel: string
 }) {
-  const baseURL = 'http://worldtimeapi.org/api/timezone/'
+  const baseURL = 'https://worldtimeapi.org/api/timezone/'
 
   const [cityTime, setCityTime] = useState(0)
   const [isAhead, setIsAhead] = useState(false)
