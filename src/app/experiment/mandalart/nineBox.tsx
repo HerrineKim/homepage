@@ -1,7 +1,7 @@
 export default function NineBox() {
   return (
     <>
-      <h1>NineBox</h1>
+      <div className='grid grid-cols-3 grid-rows-3'>1</div>
     </>
   )
 }
