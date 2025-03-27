@@ -39,12 +39,6 @@ export default function RootLayout({
           GitHub
         </Link>
         <Link
-          href='/wiki'
-          className='text-sm text-gray-800 hover:text-gray-600'
-        >
-          Wiki
-        </Link>
-        <Link
           href='/books'
           className='text-sm text-gray-800 hover:text-gray-600'
         >
