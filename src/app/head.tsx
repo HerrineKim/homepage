@@ -4,13 +4,13 @@ export default function Head() {
   // TODO 이곳에서 SNS에 URL을 공유할 때 미리보기가 가능한 Open Graph 설정도 할 수 있다.
   return (
     <>
-      <title>혜린의 아지트</title>
+      <title>개발자 김혜린</title>
       <meta charSet='utf-8' />
       <meta content='width=device-width, initial-scale=1' name='viewport' />
-      <meta name='description' content='개발자 혜린의 아지트' />
+      <meta name='description' content='개발자 김혜린' />
       <meta
         name='keywords'
-        content='개발자, 프론트엔드, 프론트엔드 개발자, 혜린, 혜린의 아지트, Frontend, Frontend Developer, HerrineKim, aprilkim98'
+        content='개발자, 프론트엔드, 프론트엔드 개발자, 혜린, Frontend, Frontend Developer, HerrineKim, aprilkim98'
       />
       <meta name='author' content='HerrineKim' />
       <link rel='icon' href='/favicon.ico' />
