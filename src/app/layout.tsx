@@ -11,17 +11,16 @@ export default function RootLayout({
     <div className='w-full p-8 border-b md:w-56 md:border-r md:border-b-0'>
       <div className='mb-8 md:mb-12'>
         <Link href='/'>
-          <h1 className='mb-2 text-xl font-bold'>개발자 김혜린</h1>
+          <h1 className='mb-2'>김혜린</h1>
+          <h2 className='mb-2'>Hyerin April Kim</h2>
         </Link>
-        <p className='text-sm text-gray-600'>
-          3년차 프론트엔드 개발자 김혜린입니다.
+        <p className='mb-2 text-sm text-gray-600'>
+          프론트엔드를 메인으로 하는 웹 개발자입니다.
         </p>
-      </div>
-
-      {/* Profile Section */}
-      <div className='mb-8 md:mb-12'>
-        <h2 className='mb-4 text-lg font-semibold'>Hyerin April Kim</h2>
-        <p className='text-sm text-gray-600'>3-year-old Web Developer</p>
+        <p className='mb-2 text-sm text-gray-600'>
+          React, Vue, Next.js, Nest.js, Express.js, Dropwizard, NGINX, AWS,
+          Docker, Git, Figma, JIRA
+        </p>
       </div>
 
       {/* Information */}
